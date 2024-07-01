@@ -1,0 +1,48 @@
+.shop {
+    text-align: center;
+}
+
+.shopTitle {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.description p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product {
+    margin-right: 90px;
+    border-radius: 15px;
+    height: auto;
+    margin: 50px;
+    width: 300px;
+}
+
+.product img{
+    width: 300px;
+    height: 300px;
+}
+
+.products {
+    display: grid;
+    margin: 40px;
+    width: 100%;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.addToCart {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.addToCart:hover {
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+}

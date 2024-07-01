@@ -1,0 +1,48 @@
+.Header-main-section {
+    height: 300px;
+    background-color: lightgray;
+    max-width: 100%;
+    width: 100%;
+    aspect-ratio: 10 / 7;
+    margin: 0 auto;
+}
+
+.popular-products {
+    text-align: center;
+}
+
+.header-wrapper {
+    width:513%;
+    position: relative;
+}
+
+.image-wrapper {
+    display: flex;
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    /* object-fit: fill; */
+}
+
+.image-wrapper img{
+    width: 160%;
+    height: 50%;
+}
+
+.header-buttons {
+    position: absolute;
+    top: 8rem;
+    bottom: 0;
+    margin-left: 50px;
+}
+
+.header-button-wrapper button{
+    margin-right:92rem;
+    padding: 10px;
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}

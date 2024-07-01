@@ -1,0 +1,29 @@
+.navbar-main-wrapper {
+    background-color: cyan;
+    height: 100px;
+}
+
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:35px;
+}
+
+.nav-searchinput input{
+    padding: 10px;
+    width: 500px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.nav-components * {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+}
+
+
